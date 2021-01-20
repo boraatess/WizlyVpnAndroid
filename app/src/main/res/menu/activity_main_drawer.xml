@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_upgrade"
+            android:icon="@mipmap/ic_premium_plan"
+            android:title="Ülke Seç" />
+
+        <item
+            android:id="@+id/nav_unlock"
+            android:icon="@drawable/ic_shopping_cart_black_24dp"
+            android:title="Satın Alımlar"
+            />
+
+        <item
+            android:id="@+id/nav_helpus"
+            android:icon="@drawable/ic_mail_black"
+            android:title="Bize Ulaş" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_thumb_up_black"
+            android:title="Değerlendir" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Paylaş" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black"
+            android:title="Ayarlar" />
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_help_black"
+            android:title="SSS" />
+
+        <item
+            android:id="@+id/nav_policy"
+            android:icon="@drawable/ic_lock_black_24dp"
+            android:title="Gizlilik Politakası" />
+
+    </group>
+
+</menu>

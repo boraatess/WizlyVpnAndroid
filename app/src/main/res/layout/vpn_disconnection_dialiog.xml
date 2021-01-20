@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorGradient"
+    android:layout_margin="15dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:textColor="@color/white"
+        android:id="@+id/txt"
+        android:text="Bağlantını kesmek mi istiyorsun?"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bağlantı Kes"
+        android:id="@+id/disconnect_btn"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/txt"
+        android:background="@color/gnt_black"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="İptal"
+        android:id="@+id/cancel_btn"
+        android:layout_toLeftOf="@+id/disconnect_btn"
+        android:layout_below="@+id/txt"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        />
+
+
+</RelativeLayout>

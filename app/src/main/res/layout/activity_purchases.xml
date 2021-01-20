@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.PurchasesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/purchases_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorGradient"
+        app:title="Satın Alımlar"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/purchases_toolbar"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp">
+
+                    <TextView
+                        android:id="@+id/ads_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Reklamları Kaldır"
+                        android:textColor="@color/gnt_black"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ads_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ads_heading"
+                        android:gravity="center_vertical"
+                        android:text="Tüm reklamları kaldıracak. İstediğiniz aboneliği seçmeye devam edin."
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <!--            <TextView-->
+                    <!--                android:id="@+id/ads_price"-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:layout_alignParentRight="true"-->
+                    <!--                android:text="$0.99"-->
+                    <!--                android:textSize="32dp"-->
+                    <!--                android:textStyle="bold"-->
+                    <!--                android:layout_below="@id/ads_heading"-->
+                    <!--                android:visibility="invisible"-->
+                    <!--                />-->
+
+                    <Button
+                        android:id="@+id/ads_pur"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ads_details"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorGradient"
+                        android:text="Satın Al"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--vip-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp">
+
+                    <TextView
+                        android:id="@+id/vip_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="VIP Yükselt"
+                        android:textColor="@color/gnt_black"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vip_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/vip_heading"
+                        android:gravity="center_vertical"
+                        android:text="VIP sunucuların kilidini açar. İstediğiniz aboneliği seçmeye devam edin."
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <!--            <TextView-->
+                    <!--                android:id="@+id/ads_price"-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:layout_alignParentRight="true"-->
+                    <!--                android:text="$0.99"-->
+                    <!--                android:textSize="32dp"-->
+                    <!--                android:textStyle="bold"-->
+                    <!--                android:layout_below="@id/ads_heading"-->
+                    <!--                android:visibility="invisible"-->
+                    <!--                />-->
+
+                    <Button
+                        android:id="@+id/vip_pur"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/vip_details"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorGradient"
+                        android:text="Satın Al"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!--all-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="5dp"
+                app:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp">
+
+                    <TextView
+                        android:id="@+id/all_heading"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Reklam kaldır &amp; VIP Ol"
+                        android:textColor="@color/gnt_black"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/all_details"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/all_heading"
+                        android:gravity="center_vertical"
+                        android:text="Tüm reklamları kaldıracak ve VIP Sunucuların Kilidini Açacak. İstediğiniz aboneliği seçmeye devam edin."
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <!--            <TextView-->
+                    <!--                android:id="@+id/ads_price"-->
+                    <!--                android:layout_width="wrap_content"-->
+                    <!--                android:layout_height="wrap_content"-->
+                    <!--                android:layout_alignParentRight="true"-->
+                    <!--                android:text="$0.99"-->
+                    <!--                android:textSize="32dp"-->
+                    <!--                android:textStyle="bold"-->
+                    <!--                android:layout_below="@id/ads_heading"-->
+                    <!--                android:visibility="invisible"-->
+                    <!--                />-->
+
+                    <Button
+                        android:id="@+id/all_pur"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/all_details"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginTop="10dp"
+                        android:background="@color/colorGradient"
+                        android:text="Satın Al"
+                        android:textColor="@color/white"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <!--ads-->
+
+    </ScrollView>
+
+</LinearLayout>

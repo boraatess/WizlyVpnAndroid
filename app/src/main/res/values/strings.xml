@@ -1,0 +1,155 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!--App Name-->
+    <string name="app_name">Wizly VPN</string>
+    <!--END App Name-->
+
+    <string name="vpn_process_name" translatable="false">:my.custom.vpn.process.name</string>
+    <string name="vpn_provider_authorities" translatable="false">com.anchorfree.hydrasdk.app.demo</string>
+
+    <!-- Uygulama Düzeni Metin Başlıkları -->
+    <string name = "log_in"> GİRİŞ YAP </string>
+    <string name = "log_out"> ÇIKIŞ YAP </string>
+    <string name = "connect"> BAĞLAN </string>
+    <string name = "disconnect"> BAĞLANTIYI KESİN </string>
+    <string name = "optimal_server"> OPTİMAL SUNUCU </string>
+    <string name = "unknown"> BİLİNMİYOR </string>
+
+    <string name = "devices_exceed"> Kullanılabilir cihaz sayısı aşıldı. Lütfen aboneliğinizi yükseltin. </string>
+    <string name = "sessions_exceed"> Kullanılabilir aktif oturum sayısı aşıldı. Lütfen aboneliğinizi yükseltin. </string>
+
+    <string name = "version"> Sürüm </string>
+    <string name = "app_error"> Uygulama hatası </string>
+    <string name = "no_data"> Veri yok </string>
+    <string name = "personal_information"> Kişisel Bilgiler </string>
+    <string name = "account_type"> Hesap Türü </string>
+    <string name = "enabled_devices"> Etkinleştirilen Cihazlar </string>
+    <string name = "account"> Hesap </string>
+    <string name = "signin_error"> Oturum açılamıyor </string>
+    <string name = "no_network"> Sunucuya bağlanılamıyor. İnternet bağlantınızı kontrol edin. </string>
+    <string name = "online_devices"> Çevrimiçi Cihazlar </string>
+    <string name = "please_wait"> Lütfen Bekleyin </string>
+    <string name = "vpn_server_location"> VPN Sunucusu Konumu </string>
+    <string name = "vpn_node"> VPN Düğümü </string>
+    <string name = "legal_information"> Yasal Bilgiler </string>
+    <string name = "privacy_policy"> Gizlilik Politikası </string>
+    <string name = "terms_of_service"> Hizmet Şartları </string>
+    <!-- Uygulama Düzeni Metin Başlığının SONU -->
+
+    <!-- İletişim E-postası -->
+    <string name = "Help_to_improve_Email"> boraatess123@hotmail.com </string>
+    <!-- END İletişim E-postası -->
+
+    <!-- Başlıklar Başkalarına Uygulama -->
+    <string name = "tell_to_friend_text"> Wizly VPN ve Security Proxy, ömür boyu ücretsiz erişim için Süper Güvenli VPN Sınırsız Proxy Sunucusu olan dünyanın en iyi denetleme uygulamasıdır </string>
+
+    <string name = "Aboutus_page_Text"> Wizly VPN ve Security Proxy, ömür boyu ücretsiz erişim için Süper Güvenli VPN Sınırsız Proxy Sunucusu olan dünyanın en iyi denetleme uygulamasıdır. Cihazınızı kaydedin herhangi bir web sitesinin kilidini açın
+    Güvenli VPN, sitelerin engelini kaldırmak, tüm uygulamaların veya web sitelerinin engellemesini kaldırmak, sosyal ağlara erişmek, video ve film izlemek, Wi-Fi erişim noktası güvenliğini korumak ve gizliliği korumak için hız,
+        kararlılık ve güvenlikte en yüksek performansa sahip en güvenilir güvenlik, gizlilik ve erişim platformudur
+    </string>
+
+    <string name = "Faq_page_Text">
+    Wizly VPN, dünyanın en iyi denetleme uygulamasıdır ve ömür boyu ücretsiz erişim için üstün Güvenli VPN Sınırsız Proxy Sunucusudur. Herhangi bir web sitesinin kilidini açın, cihazınızı kaydedin
+    Güvenli VPN, sitelerin engelini kaldırmak, tüm uygulamaların veya web sitelerinin engellemesini kaldırmak, sosyal ağlara erişmek, video ve film izlemek, Wi-Fi erişim noktası güvenliğini korumak
+        ve gizliliği korumak için hız, kararlılık ve güvenlikte en yüksek performansa sahip en güvenilir güvenlik, gizlilik ve erişim platformudur
+    </string>
+    <!-- END Uygulama diğer Başlıklar -->
+
+    <!-- Uygulama Durumu Metni -->
+    <string name = "logged_in"> Giriş yapıldı </string>
+    <string name = "logged_out"> Çıkış yapıldı </string>
+    <string name = "connected"> Bağlandı </string>
+    <string name = "disconnected"> Bağlanmak için dokunun </string>
+    <!-- Uygulama Durumu Metninin SONU -->
+
+    <!-- Uygulama -->
+    <string name = "host_url_title"> Ana Makine Urli: </string>
+    <string name = "carrier_id_title"> Operatör Kimliği: </string>
+    <string name = "onayla"> ONAYLA </string>
+
+    <string name="traffic_stats">UL: %1$s, DL: %2$s </string>
+    <string name="traffic_limit">%1$s of %2$s available</string>
+    <string name = "traffic_unlimited"> SINIRSIZ </string>
+
+    <string name = "current_server"> CURRENT_SERVER </string>
+    <string name = "connection" tools:ignore="DuplicateDefinition"> Bağlanıyor </string>
+    <string name = "paused"> Duraklatıldı </string>
+
+    <!-- Uygulama Gezinme Çekmecesi Metin Başlıkları -->
+    <string name = "title_activity_navi"> NaviActivity </string>
+    <string name = "navigation_drawer_open"> Gezinme çekmecesini aç </string>
+    <string name = "navigation_drawer_close"> Gezinme çekmecesini kapat </string>
+    <string name = "nav_header_title"> Wizly VPN </string>
+    <string name = "nav_header_subtitle"> android.studio@android.com </string>
+    <string name = "nav_header_desc"> Gezinme başlığı </string>
+    <string name = "action_settings"> Ayarlar </string>
+    <!-- Uygulama Gezinme Çekmecesi Metin Başlıklarının SONU -->
+    <!--Enable and Disable Ads in App-->
+    <bool name="ads_switch">true</bool>
+    <!--END Enable and Disable Ads in App-->
+
+    <!--Google Ads ID'S-->
+    <string name="admob_appid">ca-app-pub-3066798903065241~8652521612</string>
+    <string name="admob_banner">ca-app-pub-3066798903065241/5226080796</string>
+    <string name="admob_native">ca-app-pub-3066798903065241/3466454175</string>
+    <string name="admob_intersitail">ca-app-pub-3066798903065241/3090872042</string>
+    <!--END Google Ads-->
+
+    <!--Facebook Ad ID-->
+    <string name="facebook_placement_id">173039520812419_173040597478978</string>
+    <!--END Facebook Ads-->
+
+    <!--Change Privacy Policy URL-->
+    <string name="privacy_policy_link">https://buyappscode.blogspot.com/p/ultimate-vpn-privacy-policy.html</string>
+    <!--END Change Privacy Policy URL-->
+
+    <!--User can show either google ads or facebook ads in servers list-->
+    <!--Note-1: if Facebook flag is false and admob true then Admob Banner ad will be shown-->
+    <!--Note-2: if both flags are true facebook ad will be shown-->
+    <bool name="admob_list_ads">true</bool>
+    <bool name="facebook_list_ads">false</bool>
+
+    <!--FAQ QUESTION DETAILS -->
+
+    <!-- SORULAR -->
+    <string name = "question1"> 1. Wizly VPN nasıl kullanılır? </string>
+    <string name = "question2"> 2. Her bağlantı için Wizly VPN ne kadar süre kullanabilirim? </string>
+    <string name = "question3"> 3. Bağlantı kurulduktan sonra interneti neden "kullanamıyorum"? </string>
+    <string name = "question4"> 4. UltimateVPN için pil optimizasyonu nasıl devre dışı bırakılır? </string>
+    <string name = "question5"> 5. Akıllı Proxy nedir? </string>
+    <string name = "question6"> 6. Bağlanmaya çalıştığımda Android sistemi izin istiyor ama kabul edemiyorum, neden? </string>
+
+    <!-- CEVAPLAR -->
+    <string name = "question1_answer"> Wizly VPN uygulamasını kullanmak için ana ekrandaki bağlan düğmesine tıklayın. Android sistemi bağlantı izni istemek için bir iletişim kutusu gösterirse, devam etmek için Tamam veya Kabul Et butonuna tıklayın. </string>
+    <string name = "question2_answer"> Yapabildiğiniz kadar. Her bağlantı için zaman veya trafik sınırlaması ayarlamıyoruz </string>
+    <string name = "question3_answer"> Her şeyden önce, ağ bağlantınızı kontrol edin.
+        Ardından "Androidin" pil ayarında Wizly VPN için pil optimizasyonunu "devre dışı bıraktığınızdan" emin olun (bu, Wizly VPN için arka plan etkinliğini etkinleştirmek anlamına gelir).
+        Smart Proxy etkinleştirirseniz, proxy yapmanız gereken tüm uygulamaların Smart Proxy ayarında işaretlendiğinden emin olmanız gerekir. </string>
+    <string name = "question4_answer" />
+    <string name = "question5_answer"> Android 5.0 veya üzerinde, uygulamalardan yalnızca bazılarının UltimateVPN proxy trafiği için kullanmasına izin verebilirsiniz ve diğer tüm uygulamalar yerel ağı kullanır. Örneğin, ülkenizde Facebook ve Skype engellendiyse, onları Akıllı Proxy ile kontrol ettirin. VPN bağlantısı kurulduktan sonra, yalnızca Facebook ve "Skype'ın" trafiği VPN üzerinden geçer ve diğer tüm uygulamalarınız her zamanki kadar iyi performans gösterir. </string>
+    <string name = "question6_answer">
+        Ekran rengini değiştiren veya yüzen bir pencere açan bir uygulama çalıştırıyor olabilirsiniz.
+        Androidin güvenlik sistemi, bu durumlarda VPN uygulamasının çalışmasını engeller.
+        Devam etmek için bu tür uygulamaları geçici olarak kapatmanız gerekiyor.
+    </string>
+    <!-- SON SSS SORU DETAYLARI -->
+
+    <!-- reklam abonelik dönemi fiyatları -->
+    <string name = "ads_price_monthly"> Aylık 4,99 türk lirası </string>
+    <!-- reklam abonelik dönemi fiyatları -->
+
+    <!-- vip abonelik dönemi fiyatları -->
+    <string name = "vip_price_month"> Aylık 1,99 türk lirası  </string>
+    <string name = "vip_price_3month"> Üç Aylık 4,99 türk lirası  </string>
+    <string name = "vip_price_6month"> Altı Aylık 7,99 türk lirası  </string>
+    <string name = "vip_price_12month"> Yıllık 11,99 türk lirası  </string>
+    <!-- vip abonelik dönemi fiyatları -->
+
+    <!-- reklamlar + vip abonelik dönemi fiyatları -->
+    <string name = "all_price_month"> Aylık 2,99 türk lirası  </string>
+    <string name = "all_price_3month"> Üç Aylık 6,99 türk lirası  </string>
+    <string name = "all_price_6month"> Altı Aylık 9,99 türk lirası  </string>
+    <string name = "all_price_12month"> Yıllık 14,99 türk lirası  </string>
+    <!-- reklamlar + vip abonelik dönemi fiyatları -->
+
+</resources>
